@@ -20,6 +20,5 @@ exports.añadirDestino = async (req, res) => {
 };
 
 exports.destinosPopulares = async (req, res) => {
-    // La lógica aquí dependerá de cómo definas un "destino popular"
-    // Podría basarse en el número de tickets vendidos para ese destino, por ejemplo
+
 };
