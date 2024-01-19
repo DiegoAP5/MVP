@@ -9,7 +9,6 @@ const vehiculoSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    // Agrega más campos según sea necesario
 });
 
 const Vehiculo = mongoose.model('Vehiculo', vehiculoSchema);

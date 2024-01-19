@@ -17,9 +17,8 @@ const ordenSchema = new mongoose.Schema({
     estado: {
         type: String,
         required: true,
-        enum: ['pendiente', 'completado', 'cancelado'] // Ejemplo de estados
+        enum: ['pendiente', 'completado', 'cancelado']
     },
-    // Agrega más campos según sea necesario
 });
 
 const Orden = mongoose.model('Orden', ordenSchema);

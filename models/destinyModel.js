@@ -9,7 +9,6 @@ const destinoSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    // Agrega más campos según sea necesario
 });
 
 const Destino = mongoose.model('Destino', destinoSchema);
